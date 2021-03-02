@@ -68,7 +68,7 @@ void drawOriginalBresenham(LINE_T line, int canvas[WINDOW_WIDTH][WINDOW_HEIGHT],
     }
 }
 
-/// Approve Bresenham Algorithm for handling
+/// Improve Bresenham Algorithm for handling
 /// when slope of line is greater than 1
 /// @param line 2 endpoints
 /// @param dy differece of points in vertical direction
@@ -89,7 +89,7 @@ void drawGreatGradientLine(LINE_T line, int canvas[WINDOW_WIDTH][WINDOW_HEIGHT],
     }
 }
 
-/// Approve Bresenham Algorithm for handling negative slope
+/// Improve Bresenham Algorithm for handling negative slope
 /// when the slope is < 0 but >= -1
 /// @param line 2 endpoints
 /// @param dy differece of points in vertical direction
@@ -112,7 +112,7 @@ void drawNegativeGradientLine(LINE_T line, int canvas[WINDOW_WIDTH][WINDOW_HEIGH
     }
 }
 
-/// Approve Bresenham Algorithm for handling negative slope
+/// Improve Bresenham Algorithm for handling negative slope
 /// when slope of line is less than -1
 /// @param line 2 endpoints
 /// @param dy differece of points in vertical direction
